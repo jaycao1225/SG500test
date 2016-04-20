@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.Screen2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/tv_wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:text="WiFi Network Information"
+            android:textColor="#0000FF"
+            android:textStyle="bold"
+            android:textSize="10sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="4dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_ssid"
+            style="@style/nomal"
+            android:text="SSID:"/>
+        <TextView
+            android:id="@+id/tv_ssidtext"
+            style="@style/nomal"
+            android:text="  vSIM-Hotspot-7244"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_password"
+            style="@style/nomal"
+            android:text="Password:"/>
+        <TextView
+            android:id="@+id/tv_passwordtext"
+            style="@style/nomal"
+            android:text="  72447244"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_Connected_devices"
+            style="@style/nomal"
+            android:text="Connected devices:"/>
+        <TextView
+            android:id="@+id/tv_Connected_devices_number"
+            style="@style/nomal"
+            android:text="  0"/>
+    </LinearLayout>
+</LinearLayout>
